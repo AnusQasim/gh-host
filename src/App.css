@@ -1,0 +1,112 @@
+/* App.css */
+
+/* Background color for the entire application */
+body {
+  background-color: #f0f2f5;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header styling */
+.App-header {
+  background-color: #007bff;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Title styling */
+h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+/* Container for input field and buttons */
+.input-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+/* Input field styling */
+.input-field {
+  padding: 10px;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+/* Buttons styling */
+.add-button,
+.update-button,
+.delete-all-button,
+.save-button,
+.edit-button,
+.delete-button {
+  padding: 10px 15px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.delete-button,
+.delete-all-button {
+  background-color: #dc3545 !important;
+}
+
+.delete-button:hover,
+.delete-all-button:hover {
+  background-color: #c82333 !important;
+}
+
+.add-button:hover,
+.update-button:hover,
+.delete-all-button:hover,
+.save-button:hover,
+.edit-button:hover,
+.delete-button:hover {
+  background-color: #218838;
+}
+
+/* List styling */
+.list {
+  list-style: none;
+  padding: 0;
+}
+
+.list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 10px;
+  color: grey;
+  margin: 5px 0;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-size: 18px;
+}
+
+/* Edit input field styling */
+.edit-input {
+  width: 200px;
+  padding: 5px;
+  font-size: 16px;
+}
+
+/* Delete All button styling */
+.delete-all-button {
+  background-color: #dc3545;
+}
+
+.delete-all-button:hover {
+  background-color: #c82333;
+}
